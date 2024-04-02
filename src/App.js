@@ -13,7 +13,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Fetch additional news from the API endpoint for each coin bot id
+   
     const coinBotIds = [4, 5, 6];
     coinBotIds.forEach((coinBotId) => {
       fetchNews(coinBotId);
